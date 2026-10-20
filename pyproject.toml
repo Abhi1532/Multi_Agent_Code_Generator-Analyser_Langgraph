@@ -1,0 +1,14 @@
+[project]
+name = "langgraph-youtube-main"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "dotenv>=0.9.9",
+    "langchain-core>=1.6.12",
+    "langchain-openai>=1.7.2",
+    "langgraph>=1.2.16",
+    "typing>=3.10.0.0",
+    "websockets>=16.1.1",
+]
